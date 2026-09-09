@@ -1,8 +1,8 @@
-import { ArrowRight, Check, ChevronRight, ClipboardCheck, Home, MapPin, MessageCircle, ShieldCheck, Wrench } from 'lucide-react';
+import { ArrowRight, Check, ChevronRight, ClipboardCheck, Home, MapPin, MessageCircle, ShieldCheck, Wrench, type LucideIcon } from 'lucide-react';
 
 const whatsapp = 'https://wa.me/5583999364840?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20vistoria%20de%20imóvel.';
 const checks = ['Pisos, revestimentos, pintura e forros', 'Portas, janelas, esquadrias e fechaduras', 'Tomadas e pontos elétricos acessíveis', 'Torneiras, ralos e escoamento aparente', 'Sinais de infiltração, umidade e fissuras', 'Registros fotográficos das condições encontradas'];
-const services = [
+const services: [LucideIcon, string, string, string][] = [
   [Home, '01', 'Imóvel novo', 'Receba as chaves com um registro técnico das condições aparentes do seu apartamento ou casa.'],
   [ClipboardCheck, '02', 'Compra de imóvel', 'Conheça melhor o estado aparente do imóvel antes de avançar na negociação.'],
   [Wrench, '03', 'Entrega e pós-obra', 'Identifique e documente pontos que merecem atenção durante o processo de entrega.'],
